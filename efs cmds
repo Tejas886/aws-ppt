@@ -10,7 +10,8 @@ sudo mkdir efs
 
 ## Install botocore 
 
-1. vi get-pip.py
+
+1. Run the commands
 
 if [[ "$(python3 -V 2>&1)" =~ ^(Python 3.6.*) ]]; then
     sudo wget https://bootstrap.pypa.io/pip/3.6/get-pip.py -O /tmp/get-pip.py
@@ -24,7 +25,6 @@ fi
 
 
 2. sudo yum -y install wget
-#vi get-pip.py (copy the script and save it)
 3. sudo python3 /tmp/get-pip.py
 4. sudo pip3 install botocore || sudo /usr/local/bin/pip3 install botocore
 
